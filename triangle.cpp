@@ -16,7 +16,7 @@ triangle::triangle(point A, point B, point C) : A(A), B(B), C(C)
 	double j = ab_z * ac_x - ab_x * ac_z;
 	double k = ab_x * ac_y - ab_y * ac_x;
 
-	double eps = 1e-9;
+	double eps = numeric_limits<double>::epsilon();
 	if (abs(i) > eps || abs(j) > eps || abs(k) > eps) {
 		a = sqrt(pow(ab_x, 2) + pow(ab_y, 2) + pow(ab_z, 2));
 		b = sqrt(pow(C.get_x() - B.get_x(), 2) + pow(C.get_y() - B.get_y(), 2) + pow(C.get_z() - B.get_z(), 2));
