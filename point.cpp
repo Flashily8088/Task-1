@@ -1,12 +1,12 @@
 #include "point.h"
 
-bool point::operator==(point p)
+bool point::operator==(const point p) const
 {
 	return (abs(this->x - p.x) < numeric_limits<double>::epsilon() && abs(this->y - p.y) < numeric_limits<double>::epsilon()
 		&& abs(this->z - p.z) < numeric_limits<double>::epsilon());
 }
 
-bool point::operator!=(point p)
+bool point::operator!=(const point p)const
 {
 	return !(*this == p);
 }
