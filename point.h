@@ -27,18 +27,18 @@ public:
 	* @param b - ордината
 	* @param c - аппликата
 	*/
-	point(double a, double b, double c) : x(a), y(b), z(c) {}
+	point(const double a, const double b, const double c) : x(a), y(b), z(c) {}
 	/**
 	* @breaf считывает абсциссу точки с клавиатуры
 	*  * @return считанное значение
 	*/
-	bool operator==(point p);
+	bool operator==(const point p) const;
 	/**
 	* @breaf сравнивает две точки
 	* * @param p - точка
 	*  * return true если точки неравны
 	*/
-	bool operator!=(point p);
+	bool operator!=(const point p) const;
 	/**
 	* @breaf сравнивает две точки
 	* * @param p - точка
