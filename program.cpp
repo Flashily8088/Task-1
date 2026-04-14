@@ -13,7 +13,6 @@ int main() {
 	point A = creation();
 	point B = creation();
 	point C = creation();
-	A = B;
 	triangle T(A, B, C);
 	cout << "r = " << T.r() << endl;
 	cout << "R = " << T.R();
