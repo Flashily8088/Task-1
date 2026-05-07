@@ -49,16 +49,16 @@ public:
 	* @breaf считывает абсциссу точки с клавиатуры
 	* * @return считанное значение
 	*/
-	double get_x();
+	double get_x() const;
 	/**
 	* @breaf считывает ординату точки с клавиатуры
 	* * @return считанное значение
 	*/
-	double get_y();
+	double get_y() const;
 	/**
 	* @breaf считывает аппликату точки с клавиатуры
 	* * @return считанное значение
 	*/
-	double get_z();
+	double get_z() const;
 };
 
