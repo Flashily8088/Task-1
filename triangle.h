@@ -35,7 +35,7 @@ class triangle{
 	* @breaf Расчёт полупериметра
 	* @return рассчитанное значение
 	 */
-	const double p();
+	double p() const;
 public:
 	/**
 	* @breaf конструктор
