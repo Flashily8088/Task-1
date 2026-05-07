@@ -49,16 +49,16 @@ public:
 	* @breaf Расчёт радиуса вписанной в треугольник окружности
 	* @return рассчитанное значение
 	 */
-	const double r();
+	double r() const;
 	/**
 	* @breaf Расчёт площади
 	* @return рассчитанное значение
 	 */
-	const double S();
+	double S() const;
 	/**
 	* @breaf Расчёт радиуса описанной около треугольника окружности
 	* @return рассчитанное значение
 	 */
-	const double R();
+	double R() const;
 };
 
