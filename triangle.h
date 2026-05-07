@@ -35,7 +35,7 @@ class triangle{
 	* @breaf Расчёт полупериметра
 	* @return рассчитанное значение
 	 */
-	double p();
+	const double p();
 public:
 	/**
 	* @breaf конструктор
@@ -49,16 +49,16 @@ public:
 	* @breaf Расчёт радиуса вписанной в треугольник окружности
 	* @return рассчитанное значение
 	 */
-	double r();
+	const double r();
 	/**
 	* @breaf Расчёт площади
 	* @return рассчитанное значение
 	 */
-	double S();
+	const double S();
 	/**
 	* @breaf Расчёт радиуса описанной около треугольника окружности
 	* @return рассчитанное значение
 	 */
-	double R();
+	const double R();
 };
 
