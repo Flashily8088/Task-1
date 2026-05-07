@@ -27,24 +27,24 @@ triangle::triangle(const point& E, const point& F, const point& G) : A(E), B(F),
 	}
 }
 
-double triangle::p()
+const double triangle::p()
 {
 	return (a + b + c) / 2; 
 }
 
-double triangle::r()
+const double triangle::r()
 {
 	double pp = p();
 	return sqrt(((pp - a) * (pp - b) * (pp - c)) / pp);
 }
 
-double triangle::S()
+const double triangle::S()
 {
 	double pp = p();
 	return sqrt(pp * (pp - a) * (pp - b) * (pp - c));
 }
 
-double triangle::R()
+const double triangle::R()
 {
 	return (a * b * c) / (4 * S());
 }
