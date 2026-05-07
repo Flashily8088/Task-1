@@ -20,14 +20,14 @@ public:
 	/**
 	* @breaf конструктор по умолчанию
 	*/
-	point() : x(0), y(0), z(0) {}
+	point();
 	/**
 	* @breaf конструктор
 	* @param a - абсцисса
 	* @param b - ордината
 	* @param c - аппликата
 	*/
-	point(const double a, const double b, const double c) : x(a), y(b), z(c) {}
+	point(const double a, const double b, const double c);
 	/**
 	* @breaf считывает абсциссу точки с клавиатуры
 	*  * @return считанное значение
