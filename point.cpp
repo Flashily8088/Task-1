@@ -13,7 +13,7 @@ bool point::operator!=(const point p)const
 	return !(*this == p);
 }
 
-point& point::operator=(point& p)
+point& point::operator=(const point& p)
 {
 	if (*this == p) {
 		return *this;
