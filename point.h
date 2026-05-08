@@ -44,7 +44,7 @@ public:
 	* * @param p - точка
 	*  * return точку с новыми координатами равными координатам p
 	*/
-	point& operator=(point& p);
+	point& operator=(const point& p);
 	/**
 	* @breaf считывает абсциссу точки с клавиатуры
 	* * @return считанное значение
